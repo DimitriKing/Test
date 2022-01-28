@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="ORTHOLOGICK.Properties.Settings"
+        type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+        allowExeDefinition="MachineToLocalUser" requirePermission="false"/>
+    </sectionGroup>
+    <sectionGroup name="applicationSettings"
+      type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="ORTHOLOGICK.Properties.Settings"
+        type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false"/>
+    </sectionGroup>
+  <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+  <section name="entityFramework"
+      type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      requirePermission="false"/>
+  </configSections>
+  <connectionStrings>
+    <add name="ORTHOLOGICKEntities"
+      connectionString="metadata=res://*/DBstock.csdl|res://*/DBstock.ssdl|res://*/DBstock.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=BD_ORTHOLOGICK;initial catalog=ORTHOLOGICK;persist security info=True;user id=Admin;password=root2021;MultipleActiveResultSets=True;App=EntityFramework&quot;"
+      providerName="System.Data.EntityClient"/>
+    <add name="ORTHOLOGICK.Properties.Settings.ORTHOLOGICKConnectionString"
+      connectionString="Data Source=41.204.104.68;Initial Catalog=ORTHOLOGICK;Persist Security Info=True;User ID=Admin;Password=root"
+      providerName="System.Data.SqlClient"/>
+    <add name="ORTHOLOGICK.Properties.Settings.ORTHOLOGICKConnectionString1"
+      connectionString="Data Source=DESKTOP-VMP6VFQ;Initial Catalog=ORTHOLOGICK;Integrated Security=True" providerName="System.Data.SqlClient"/>
+    <add name="ORTHOLOGICK.Properties.Settings.ORTHOConnectionString"
+      connectionString="Data Source=PC1-ORTHO\SRVER1;Initial Catalog=ORTHO;Integrated Security=True" providerName="System.Data.SqlClient"/>
+    <add name="ORTHOLOGICK.Properties.Settings.ORTHOConnectionString1" connectionString="Data Source=DEV;Initial Catalog=ORTHO;Integrated Security=True"
+      providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+  <userSettings>
+    <ORTHOLOGICK.Properties.Settings>
+      <setting name="A4" serializeAs="String">
+        <value>800, 900</value>
+      </setting>
+      <setting name="centre" serializeAs="String">
+        <value>0, 0</value>
+      </setting>
+      <setting name="c" serializeAs="String">
+        <value>100, 100</value>
+      </setting>
+      <setting name="user" serializeAs="String">
+        <value/>
+      </setting>
+      <setting name="passeword" serializeAs="String">
+        <value/>
+      </setting>
+      <setting name="resterconnecter" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="l" serializeAs="String">
+        <value>Buttons</value>
+      </setting>
+      <setting name="ver" serializeAs="String">
+        <value/>
+      </setting>
+    </ORTHOLOGICK.Properties.Settings>
+  </userSettings>
+  <applicationSettings>
+    <ORTHOLOGICK.Properties.Settings>
+      <setting name="k" serializeAs="String">
+        <value>False</value>
+      </setting>
+    </ORTHOLOGICK.Properties.Settings>
+  </applicationSettings>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8"/>
+  </startup>
+  <entityFramework>
+    <providers>
+      <provider invariantName="System.Data.SqlClient" type="System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer"/>
+    </providers>
+  </entityFramework>
+</configuration>
